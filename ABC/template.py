@@ -25,3 +25,27 @@ N = int(input())
 a = [input() for i in range(N)]
 
 print("{} {}".format(, ))
+
+# aとbの最大公約数(gcd)
+from fractions import gcd
+print(gcd(78627872,1798742872))
+
+# 数字切り捨て
+import  math
+math.floor(x)
+# 数字の切り上げ
+ceil(x)
+
+# 平方根
+math.sqrt(x)
+
+# copy.deepcopy
+import copy
+A=[1,2,3]
+B=deepcopy(A)
+
+# n^m
+pow(n,m)
+
+# n^mをpで割った余り
+pow(n,m,p)
